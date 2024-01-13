@@ -1,0 +1,30 @@
+#ricerca{
+    width: 100px;
+    height: 20px;
+}
+#body{
+    background: linear-gradient(to bottom, rgb(23, 23, 68), rgb(0, 0, 224));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cerca{
+    width: 47px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+}
+.dettagli{
+    background-color: rgb(20, 20, 72);
+    color: white;
+    text-align: center;
+}
+#gradiP{
+    font-size: 50px;
+}
+#condizione{
+    font-size: 30px;
+}
