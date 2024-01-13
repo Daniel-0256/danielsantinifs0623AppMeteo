@@ -1,5 +1,4 @@
 import React from "react";
-import ListGroup from "react-bootstrap/ListGroup";
 import { Container, Row, Col } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 
@@ -14,7 +13,7 @@ function Dettagli({ vento, pioggia, gradi, umidita, visibilita, condizione, desc
   return (
     <Container>
       <Row className="text-center d-flex justify-content-center">
-        <Col sm={2} lg={5} className="m-4">
+        <Col sm={4} lg={5} className="m-4">
           <Card>
             <Card.Body>
               <Card.Title>Temp. Percepita</Card.Title>
@@ -22,7 +21,7 @@ function Dettagli({ vento, pioggia, gradi, umidita, visibilita, condizione, desc
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={2} lg={5} className="m-4">
+        <Col sm={4} lg={5} className="m-4">
           <Card>
             <Card.Body>
               <Card.Title>Precipitazioni</Card.Title>
@@ -30,7 +29,7 @@ function Dettagli({ vento, pioggia, gradi, umidita, visibilita, condizione, desc
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={2} lg={5} className="m-4">
+        <Col sm={4} lg={5} className="m-4">
           <Card>
             <Card.Body>
               <Card.Title>Umidità</Card.Title>
@@ -38,7 +37,7 @@ function Dettagli({ vento, pioggia, gradi, umidita, visibilita, condizione, desc
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={2} lg={5} className="m-4">
+        <Col sm={4} lg={5} className="m-4">
           <Card>
             <Card.Body>
               <Card.Title>Vento</Card.Title>
@@ -46,7 +45,7 @@ function Dettagli({ vento, pioggia, gradi, umidita, visibilita, condizione, desc
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={2} lg={5} className="m-4">
+        <Col sm={4} lg={5} className="m-4">
           <Card>
             <Card.Body>
               <Card.Title>Visibilità</Card.Title>
@@ -54,7 +53,7 @@ function Dettagli({ vento, pioggia, gradi, umidita, visibilita, condizione, desc
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={2} lg={5} className="m-4">
+        <Col sm={4} lg={5} className="m-4">
           <Card>
             <Card.Body>
               <Card.Title>Condizione: {condizione}</Card.Title>
@@ -62,7 +61,7 @@ function Dettagli({ vento, pioggia, gradi, umidita, visibilita, condizione, desc
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={2} lg={5} className="m-4">
+        <Col sm={4} lg={5} className="m-4">
           <Card>
             <Card.Body>
               <Card.Title>Alba</Card.Title>
@@ -70,7 +69,7 @@ function Dettagli({ vento, pioggia, gradi, umidita, visibilita, condizione, desc
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={2} lg={5} className="m-4">
+        <Col sm={4} lg={5} className="m-4">
           <Card>
             <Card.Body>
               <Card.Title>Tramonto</Card.Title>
