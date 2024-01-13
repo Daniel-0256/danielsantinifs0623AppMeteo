@@ -29,13 +29,13 @@ const Header = ({ setSearchValue }) => {
     <>
       <div id="" className="d-flex flex-column align-items-center text-center">
         <div>
-          <h3 className="mb-0 text-light">
+          <h3 className="mb-sm-3">
             {data.toLocaleString(undefined, options[1])}
           </h3>
-          <div className="d-flex justify-content-center">
+          <div className="d-flex justify-content-center ">
             <input
               id="ricerca"
-              className=""
+              className="border border-none"
               type="text"
               placeholder="Cerca..."
               value={inputValue}

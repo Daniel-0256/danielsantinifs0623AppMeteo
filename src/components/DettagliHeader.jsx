@@ -11,11 +11,11 @@ const DettagliHeader = ({gradi, condizione, gradiMax, gradiMin}) => {
   return (
     <>
       <div className="d-flex flex-column align-items-center">
-        <p id="gradiP" className="text-light">{temperaturaCelsius.toFixed(2)}°</p>
-        <p className="text-light" id="condizione">{condizione}</p>
+        <p id="gradiP" className="">{temperaturaCelsius.toFixed(2)}°</p>
+        <p className="" id="condizione">{condizione}</p>
         <div className="d-flex">
-            <p className="text-light pe-2">MAX: {temperaturaCelsiusMax.toFixed(2)}°</p>
-            <p className="text-light ps-2">MIN: {temperaturaCelsiusMin.toFixed(2)}°</p>
+            <p className="fs-3 pe-2">MAX: {temperaturaCelsiusMax.toFixed(2)}°</p>
+            <p className="fs-3 ps-2">MIN: {temperaturaCelsiusMin.toFixed(2)}°</p>
         </div>
       </div>
     </>

@@ -39,15 +39,22 @@ const Home = () => {
         <Header setSearchValue={setSearchValue} />
         {!loading ? (
           <>
-            <DettagliHeader gradi={weatherData.days[0].temp}
-            condizione={weatherData.days[0].conditions}
-            gradiMax={weatherData.days[0].tempmax}
-            gradiMin={weatherData.days[0].tempmin} />
+            <DettagliHeader
+              gradi={weatherData.days[0].temp}
+              condizione={weatherData.days[0].conditions}
+              gradiMax={weatherData.days[0].tempmax}
+              gradiMin={weatherData.days[0].tempmin}
+            />
             <Dettagli
               vento={weatherData.days[0].windspeed}
               gradi={weatherData.days[0].temp}
               pioggia={weatherData.days[0].precipprob}
               umidita={weatherData.days[0].humidity}
+              visibilita={weatherData.days[0].visibility}
+              condizione={weatherData.days[0].conditions}
+              descrizione={weatherData.days[0].description}
+              alba={weatherData.days[0].sunrise}
+              tramonto={weatherData.days[0].sunset}
             />
           </>
         ) : null}
