@@ -1,0 +1,44 @@
+
+
+#ricerca{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#cerca{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#città{
+    font-size: 100px;
+    color: white;
+}
+
+#data{
+    color: white;
+    font-size: 30px;
+}
+
+#gradiP{
+    font-size: 50px;
+}
+
+#condizione{
+    font-size: 30px;
+}
+
+#contenitoreDettagliHeader{
+    color: white;
+}

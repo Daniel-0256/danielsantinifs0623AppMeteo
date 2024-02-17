@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import "../CSS/Style.css";
+import "../CSS/StyleHeader.css";
 
 const Header = ({ setSearchValue }) => {
   const [inputValue, setInputValue] = useState("");
@@ -27,17 +27,18 @@ const Header = ({ setSearchValue }) => {
 
   return (
     <>
-      <div id="" className="d-flex flex-column align-items-center text-center">
-        <div>
-          <h3 className="mb-sm-3">
+      <div id="nav">
+        <div className="d-flex p-1 pe-5 ps-5 justify-content-between align-items-center">
+          <h3 id="data">
             {data.toLocaleString(undefined, options[1])}
           </h3>
-          <div className="d-flex justify-content-center ">
+          <h1 id="città">{inputValue}</h1>
+          <div className="d-flex">
             <input
               id="ricerca"
               className="border border-none"
               type="text"
-              placeholder="Cerca..."
+              placeholder="Cerca una località!"
               value={inputValue}
               onChange={handleInputChange}
             />
@@ -45,9 +46,8 @@ const Header = ({ setSearchValue }) => {
               Cerca
             </button>
           </div>
-          <h2>{inputValue}</h2>
+          
         </div>
-        <div></div>
       </div>
     </>
   );

@@ -1,3 +1,5 @@
+import "../CSS/StyleHeader.css";
+
 function convertFahrenheitToCelsius(fahrenheit) {
   const celsius = ((fahrenheit - 32) * 5) / 9;
   return celsius;
@@ -10,7 +12,7 @@ const DettagliHeader = ({gradi, condizione, gradiMax, gradiMin}) => {
 
   return (
     <>
-      <div className="d-flex flex-column align-items-center">
+      <div id="contenitoreDettagliHeader" className="d-flex flex-column align-items-center">
         <p id="gradiP" className="">{temperaturaCelsius.toFixed(2)}°</p>
         <p className="" id="condizione">{condizione}</p>
         <div className="d-flex">
